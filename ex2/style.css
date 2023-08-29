@@ -1,0 +1,21 @@
+h2{
+    color:#24a76a ;
+    text-align: center;
+    font-family:'Papyrus',fantasy;
+}
+
+h2:hover {
+color: #24a76a;
+font-family:'Papyrus',fantasy;
+}
+
+p{
+    color: black ;
+    text-align: center;
+    font-family:'Brush Script MT', cursive;
+    font-size: x-large;
+}
+
+img:hover {
+    box-shadow: 0 0 10px 5px #24a76a;
+}
