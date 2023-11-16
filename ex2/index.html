@@ -1,35 +1,53 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>PLANTEX</title>
-        <link rel="stylesheet" type="text/css" href="style.css"/>
-        <style>
-             h1 {text-align: center; font-family:'Papyrus';}
-            .center{
-                display: block;
-                margin-left: auto;
-                margin-right: auto;
-            }
-        </style>
-    </head>
-    <body style="background-color: whitesmoke;">
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANTEX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
         <h1>Plantex - Botanical house</h1>
-        <p>
-           Welcome to our Plant Paradise, the ultimate online destination for plant enthusiasts. 
-           Explore a diverse collection of plants, guided by expert care instructions 
-           and captivating photos. 
-           Enjoy seamless browsing,secure packaging,and prompt delivery.
-           Join a vibrant community, shop sustainably,and find inspiration to bring nature into your space. 
-           Your journey to a greener life begins here!!!
-        </p>
-        <h2 style="text-decoration: underline;">Varieties of Plants are Available!</h2>
-        <img src="Mapping.png" alt="Plant"  usemap="#imagemap" title="Click on the Images to buy the varieties" class="center"/>
-        <map name ="imagemap" class="center">
-            <area shape="rect" coords="18,21,349,339" alt="Flowering Plants" href="https://www.amazon.in/s?k=flowering+plants+for+home+garden&crid=3UGZJ24BSZD8G&sprefix=live+flowering+plants+for+home+garden%2Caps%2C202&ref=nb_sb_ss_ts-doa-p_1_37">
-                <area shape="rect" coords="394,21,271,339" alt="Fruit Plants" href="https://www.amazon.in/s?k=live+fruit+plants+for+home+garden&crid=1R94QXDIR1UQY&sprefix=live+fruit+plants+for+home+garden%2Caps%2C208&ref=nb_sb_noss_1">
-                <area shape="rect" coords="768,21,1095,339" alt="Vegetable Plants" href="https://www.amazon.in/live-vegetable-plants-for-home-garden/s?k=live+vegetable+plants+for+home+garden">
-                <area shape="rect" coords="19,456,348,772" alt="Decorative Indoor Plants" href="https://www.amazon.in/s?k=indoor+plants+for+home+garden&crid=37LFNEJ468IZC&sprefix=indoor+plants+for+home+garden%2Caps%2C208&ref=nb_sb_noss_1">
-                <area shape="rect" coords="764,456,1095,772" alt="Medicinal Plants" href="https://www.amazon.in/s?k=medicinal+plants+for+home+garden&crid=1MFX4EFSIVEJ0&sprefix=medicinal+plants+for+home+garden%2Caps%2C216&ref=nb_sb_noss_1">
-        </map>
-    </body>
+    </header>
+
+    <section id="aboutus">
+        <div id="aboutus-description">
+            <h2>ABOUT US</h2>
+            <br></br>
+            <p>
+                Welcome to our Plant Paradise, the ultimate online destination for plant enthusiasts. 
+                Explore a diverse collection of plants, guided by expert care instructions 
+                and captivating photos. 
+                Enjoy seamless browsing,secure packaging,and prompt delivery.
+                Join a vibrant community, shop sustainably,and find inspiration to bring nature into your space. 
+                Your journey to a greener life begins here!!!
+            </p>
+            <br></br>
+            <a href="#" class="buy-now-button">Login</a>
+        </div>
+        <img src="logo.png" alt="About Us Image">
+    </section>
+
+    <section id="products">
+        <h2><centre>OUR PRODUCTS</centre></h2>
+        <div style="text-align: center;">
+            <img src="Mapping.png" alt="Plant" usemap="#imagemap">
+            <map name="imagemap">
+                <area shape="poly" coords="520,46,719,44,819,217,721,392,520,393,418,219" alt="Saplings" href="https://theaffordableorganicstore.com/product-category/plants/">
+                <area shape="poly" coords="838,236,1042,237,1142,413,1042,585,839,585,742,412" alt="Soil" href="https://www.amazon.in/s?k=soil+for+plants+home+garden&crid=V0SMFG6NHDV1&sprefix=soil+for+plants%2Caps%2C220&ref=nb_sb_ss_ts-doa-p_2_15">
+                <area shape="poly" coords="838,600,1042,602,1141,772,1041,949,841,949,740,773" alt="Seeds" href="https://theaffordableorganicstore.com/product-category/seeds/">
+                <area shape="poly" coords="522,781,722,782,819,955,720,1128,517,1130,419,955" alt="Organizers" href="https://www.amazon.in/s?k=plants+stands&crid=16CH7QTWOSI86&sprefix=plants+stands+%2Caps%2C235&ref=nb_sb_noss_2">
+                <area shape="poly" coords="196,603,400,607,499,776,399,950,195,949,96,773" alt="Pots" href="https://www.amazon.in/s?k=plants+pots&crid=Q27G49IRXHX7&sprefix=plants+pots%2Caps%2C206&ref=nb_sb_noss_1">
+                <area shape="poly" coords="98,237,398,240,499,410,398,586,196,586,98,413" alt="Fertilizers" href="https://www.amazon.in/s?k=organic+fertilizer+for+plants+home+garden&crid=3HESCMIKF6ZF6&sprefix=organic++for+plants+home+garden%2Caps%2C205&ref=nb_sb_ss_ts-doa-p_1_30">
+            </map>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2023-PLANTEX. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>

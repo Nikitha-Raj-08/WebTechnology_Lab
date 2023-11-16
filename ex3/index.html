@@ -1,25 +1,40 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <title>PLANTEX</title>
-        <style>
-            h1 {text-align: center;}
-            p {text-align: center;}
-        </style>
-    </head>
-    <body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PLANTEX</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
         <h1>Plantex - Botanical house</h1>
-        <p>
-           Welcome to our Plant Paradise, the ultimate online destination for plant enthusiasts. 
-           Explore a diverse collection of plants, guided by expert care instructions 
-           and captivating photos. 
-           Enjoy seamless browsing,secure packaging,and prompt delivery.
-           Join a vibrant community, shop sustainably,and find inspiration to bring nature into your space. 
-           Your journey to a greener life begins here!!!
-        </p>
+    </header>
+
+    <section id="aboutus">
+        <div id="aboutus-description">
+            <h2>ABOUT US</h2>
+            <br></br>
+            <p>
+                Welcome to our Plant Paradise, the ultimate online destination for plant enthusiasts. 
+                Explore a diverse collection of plants, guided by expert care instructions 
+                and captivating photos. 
+                Enjoy seamless browsing,secure packaging,and prompt delivery.
+                Join a vibrant community, shop sustainably,and find inspiration to bring nature into your space. 
+                Your journey to a greener life begins here!!!
+            </p>
+            <br></br>
+            <button onclick="window.location.href = 'login.html';"class ="login">Login</button>
+        </div>
+        <img src="logo.png" alt="About Us Image">
+    </section>
+
+    <section id="products">
+        <h2><centre>OUR PRODUCTS</centre></h2>
         <div style="text-align: center;">
-            <img src="Mapping.png" alt="Plant"  usemap="#imagemap">
-            <map name ="imagemap">
+            <img src="Mapping.png" alt="Plant" usemap="#imagemap">
+            <map name="imagemap">
                 <area shape="poly" coords="520,46,719,44,819,217,721,392,520,393,418,219" alt="Saplings" href="https://theaffordableorganicstore.com/product-category/plants/">
                 <area shape="poly" coords="838,236,1042,237,1142,413,1042,585,839,585,742,412" alt="Soil" href="https://www.amazon.in/s?k=soil+for+plants+home+garden&crid=V0SMFG6NHDV1&sprefix=soil+for+plants%2Caps%2C220&ref=nb_sb_ss_ts-doa-p_2_15">
                 <area shape="poly" coords="838,600,1042,602,1141,772,1041,949,841,949,740,773" alt="Seeds" href="https://theaffordableorganicstore.com/product-category/seeds/">
@@ -28,5 +43,11 @@
                 <area shape="poly" coords="98,237,398,240,499,410,398,586,196,586,98,413" alt="Fertilizers" href="https://www.amazon.in/s?k=organic+fertilizer+for+plants+home+garden&crid=3HESCMIKF6ZF6&sprefix=organic++for+plants+home+garden%2Caps%2C205&ref=nb_sb_ss_ts-doa-p_1_30">
             </map>
         </div>
-    </body>
+    </section>
+
+    <footer>
+        <p>&copy; 2023-PLANTEX. All rights reserved.</p>
+    </footer>
+
+</body>
 </html>

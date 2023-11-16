@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="login.css">
+        <title>Login Page</title>
+    </head>
+    <body>
+        <div class="login-page">
+            <div class="form">
+                <div class="login">
+                    <div class="login-header">
+                        <img src="logo.png" alt="Logo" class="logo">
+                        <h3><b>LOGIN PAGE</b></h3>
+                    </div>
+                </div>
+                <form id="myForm" onsubmit="validateForm(event)">           
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                    <button type="submit">Login</button>
+                </form>
+                <div id="error-message"></div>
+            </div>
+        </div>
+    </body>
+</html>
